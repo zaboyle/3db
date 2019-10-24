@@ -6,7 +6,7 @@ APPLICATION_ROOT = '/'
 
 PROGRAM_FOLDER = os.path.join(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__))),
-    'pythonapi', 'tests'
+    'pythonapi', 'main'
 )
 
 PROGRAM_NAME = 'test0.py'
