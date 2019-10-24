@@ -9,9 +9,13 @@ A 3D visual debugger for Python with VR support. Made for MHacks 12
 `$ python3 -m venv env`
 
 3. activate the environment using      
-	`$ source env/bin/activate`
+`$ source env/bin/activate`     
+   then install our package using     
+`$ pip install -e .`        
 
-4. Grab your favorite Python program and copy it into the `main/` folder. Be sure to include the line `import pdb;pdb.set_trace()` atop the file you wish to debug. Now, navigate to `config.py` and change `PROGRAM_NAME` to the name of the python file
+4. Grab your favorite Python program and copy it into the `main/` folder. Be sure to include the line     
+`import pdb;pdb.set_trace()`     
+atop the file you wish to debug. Now, navigate to `config.py` and change `PROGRAM_NAME` to the name of the python file
 
 5. run the api server using      
 	`$ chmod +x bin/* `      
